@@ -1,4 +1,3 @@
-
 public class Checking {
     public static void checkCharacters(String login, String password, String confirmPassword) {
         try {
@@ -18,7 +17,6 @@ public class Checking {
         } catch (WrongLoginException | WrongPasswordException e) {
             System.err.println("Данные не удовлетворяют условиям");
         }
-
     }
 
     public static void checkAbc(String abc) {
@@ -31,7 +29,6 @@ public class Checking {
             throw new WrongLoginException();
         }
     }
-
     public static void checkAbc1(String abc) {
         if (!abc.matches("^[a-zA-Z0-9_]+$")) {
             throw new WrongPasswordException();

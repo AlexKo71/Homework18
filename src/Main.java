@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
-
     public static void main(String[] args) {
         Account account = new Account("Abc_1f", "Abc1");
         System.out.println("Подтвердите пароль:");
@@ -11,6 +9,4 @@ public class Main {
         Checking.checkCharacters(account.getLogin(), account.getPassword(), confirmPassword);
         keyboard.close();
     }
-
-
 }

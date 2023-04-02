@@ -8,7 +8,6 @@ public class Account {
         this.password = password;
 
     }
-
     public String getLogin() {
         return login;
     }
@@ -32,7 +31,6 @@ public class Account {
     public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
-
 }
 
 
